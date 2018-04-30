@@ -59,7 +59,7 @@ class LoginTest {
                 .setPassword("mail@example.com")
                 .clickLogin()
                 .screenShot("loginSuccess")
-                .wait()
+                .sleep(10000)
                 .matchText(R.id.tv_name, mActivityTestRule.activity.getString(R.string.success))
 
     }

@@ -20,17 +20,14 @@ class LoginRobot(private val context: Context) : BaseTestRobot() {
         return matchText(textView(android.R.id.message), context.getString(err))
     }
 
-    fun sleep() = apply {
-        Thread.sleep(500)
+    fun sleep(time : Long) = apply {
+        Thread.sleep(time)
     }
 
     fun screenShot(tag: String) = apply {
-        sleep()
+        sleep(500)
         TestUtilsJava.screenShot(tag)
     }
 
-    fun wait() = apply {
-        Thread.sleep(10000)
-    }
 
 }
