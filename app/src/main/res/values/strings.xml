@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Automate</string>
+    <string name="txt_ok">OK</string>
+    <string name="msg_fail">login Missing Email Password</string>
+    <string name="missing_fields">login Missing Password</string>
+    <string name="login_fail">login Wrong Password!!!</string>
+    <string name="success">"Luke Skywalker"</string>
+
+
+</resources>
